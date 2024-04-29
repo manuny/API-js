@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.photo_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    max-width: 600px;
+    min-height: 500px;
+   padding: 20px;
+}
+
+.photo_box {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    border: 2px solid rgb(178, 231, 255);
+
+
+}
+
+.imag_inform {
+	padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.photographer_box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.photographer_box {
+    border-radius: 5px;
+    border: 2px solid rgb(145, 131, 246);
+    min-width: 220px;
+    min-height: 110px;
+    padding: 10px;
+}
+
+.photographer_name, .photographer {
+    text-align: center;
+}
+.likes_button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.likes_button_img:hover {
+    fill: brown;
+    transition: 0.6s ease;
+}
+
